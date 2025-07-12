@@ -130,7 +130,7 @@ class GameView(arcade.View):
             [None, None, None]
         ]
         self.curr_player = "X"
-        self.train = True
+        self.train = False
 
         self.update_cycles = 0
 

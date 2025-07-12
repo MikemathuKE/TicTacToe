@@ -100,6 +100,7 @@ class AI:
             file.write(json.dumps(Q_TABLE))
 
     def load_qtable(self):
+        global Q_TABLE
         if not os.path.exists("brain.json"):
             loaded_qtable = {}
         else:
